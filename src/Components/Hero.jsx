@@ -3,22 +3,26 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 
-import HeroBackGround from '../Assets/Images/HeroBackGround.jpg'
-
+import Painting from '../Assets/Images/Painting.jpg'
+import Ducks from '../Assets/Images/Ducks.jpg'
+import ColouredLightning from '../Assets/Images/ColouredLightning.jpg'
 
 
 function hero() {
 
+
     return (
 
-        <Jumbotron fluid className='p-0 bg-transparent' >
-            <Container className='p-0'>
-                <Image src={HeroBackGround} className='p-0' fluid />
+        <Jumbotron className='p-0 bg-transparent mx-auto' >
+            <Container fluid className='p-0' >
+                <Image src={ColouredLightning} className='p-0 mx-auto d-block' fluid />
             </Container>
         </Jumbotron >
 
 
     );
 }
+
+
 
 export default hero;

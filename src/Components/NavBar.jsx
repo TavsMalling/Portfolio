@@ -14,7 +14,7 @@ function navBar() {
     return (
         <Container fluid className='px-0'>
             <Navbar
-                sticky="top"
+
                 className="border-bottom py-0"
                 bg="light"
                 variant="light"
@@ -33,7 +33,7 @@ function navBar() {
                         <Link className="nav-link mr-1 my-auto" to="/Contact">
                             Contact
                     </Link>
-                        <a href="https://github.com/TavsMalling/Portfolio" className="nav-link mr-1">
+                        <a href="https://github.com/TavsMalling/Portfolio" target='_blank' className="nav-link mr-1">
                             <Image src={GitHubLogo} roundedCircle width="50px" height="auto" />
                         </a>
                     </Nav>
