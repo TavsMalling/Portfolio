@@ -16,7 +16,7 @@ function hero() {
 
         <Jumbotron className='p-0 bg-transparent mx-auto' >
             <Container fluid className='p-0' >
-                <Image src={ColouredLightning} className='p-0 mx-auto d-block' fluid />
+                <Image src={Painting} className='p-0 mx-auto d-block' fluid />
             </Container>
         </Jumbotron >
 

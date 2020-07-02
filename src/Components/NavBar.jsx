@@ -23,7 +23,7 @@ function navBar() {
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-                <Nav className="ml-auto font-weight-bold">
+                <Nav className="ml-auto ">
                     <Link className="nav-link mr-1 my-auto" to="/">
                         Me
                     </Link>
