@@ -1,22 +1,24 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 
 import NavBar from "./Components/NavBar";
+import MePage from './Pages/MePage';
+import Hero from './Components/Hero';
+
 import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
+
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <Hero />
+      <MePage />
+
       <Footer />
     </Router>
+
   );
 }
 
-/*<Router>
-      <NavBar />
-      <Footer />
-    </Router>*/
 export default App;
