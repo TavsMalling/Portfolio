@@ -33,7 +33,7 @@ function navBar() {
                     <Link className="nav-link mr-1 my-auto" to="/Contact">
                         Contact
                     </Link>
-                    <a href="https://github.com/TavsMalling/Portfolio" target='_blank' className="nav-link mr-1 my-auto">
+                    <a href="https://github.com/TavsMalling" target='_blank' className="nav-link mr-1 my-auto">
                         <Image src={GitHubLogo} roundedCircle width="50px" height="auto" />
                     </a>
                 </Nav>
